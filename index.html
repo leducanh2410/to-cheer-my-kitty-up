@@ -2,27 +2,31 @@
 <html lang="en">
 <head>
     <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Courgette&family=Pacifico&display=swap" rel="stylesheet">               
     <title>ĐALTH</title>
 </head>
 <body>
     <div class="container">
         <div class="header">
-            <h1 class="header_text">Hà ơi, cậu có muốn làm bạn tù của tớ chủ nhật tuần này khum ?</h1>
+            <h1 class="header_text">Hà ơi, cậu có đồng ý đi chơi với Đức Anh chủ nhật tuần này khum ?</h1>
         </div>
         <div class="gif_container">
             <img src="https://media.tenor.com/efbi1EpFlVUAAAAi/bugcat-capoo.gif" alt="Cute Capoo GIF">
         </div>
         <div class="buttons">
             <div id="yes" class="btn-container">
-                <button class="btn" id="yesButton" onclick="nextPage()">Yes</button>
+                <button class="btn" id="yesButton" onclick="nextPage()">Tất nhiên rùi 😻</button>
             </div>
             <div id="no" class="btn-container">
-                <button class="btn" id="noButton" onmouseover="moveButton()">No</button>
+                <button class="btn" id="noButton" onmouseover="moveButton()">Khum 😾</button>
             </div>
         </div>
     </div>
 
     <script src="script.js"></script> 
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
 </body>
 </html>

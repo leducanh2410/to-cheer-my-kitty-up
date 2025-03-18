@@ -6,7 +6,7 @@ body {
     align-items: center;
     height: 100vh; 
     background-color: #fff5f5; 
-    font-family: 'Indie Flower', cursive;
+    font-family: "Pacifico", cursive;
     overflow: hidden; 
 }
 
@@ -27,7 +27,7 @@ body {
     font-size: 36px;
     font-weight: bold;
     color: #ff6b81; 
-    margin: 20px 0;
+    margin: 5px 0;
     text-shadow: 2px 2px 4px rgba(255, 107, 129, 0.2); 
 }
 
