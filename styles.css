@@ -129,3 +129,10 @@ body {
     background-color: #ff6b81;
     border-radius: 50%;
 }
+.gif img{
+    height: 250px;
+    width: 200px;
+}
+.gif {
+    margin-left: -260px;
+}
