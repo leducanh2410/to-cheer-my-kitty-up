@@ -30,7 +30,13 @@ body {
     margin: 5px 0;
     text-shadow: 2px 2px 4px rgba(255, 107, 129, 0.2); 
 }
-
+.note {
+    font-size: 26px;
+    font-weight: bold;
+    color: #ff6b81; 
+    margin: 5px 0;
+    text-shadow: 2px 2px 4px rgba(255, 107, 129, 0.2);
+}
 .gif_container {
     display: flex;
     justify-content: center;
